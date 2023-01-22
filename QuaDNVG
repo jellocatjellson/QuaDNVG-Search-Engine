@@ -67,7 +67,7 @@
         <button type="submit">Search</button>
       </form>
     </div>
-      <div id="about-creator" style="text-align: center; padding: 20px; font-family: 'Comic Sans', sans-serif;">
+      <div id="about-creator" style="text-align: center; padding: 20px; font-family: 'Uni Sans', sans-serif;">
         <h2 style="font-size: 36px; font-weight: bold; margin-bottom: 20px;">About Creator</h2>
         <p style="font-size: 18px; line-height: 1.5; margin-bottom: 20px;">Learn more about the creator of this website.</p>
         <a href="https://gogglecreator.carrd.co" target="_blank" style="text-decoration: none;">
