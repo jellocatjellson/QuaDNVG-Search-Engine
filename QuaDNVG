@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QuaDNVG</title>
+    <style>
+      body {
+        background-image: url("https://images.pond5.com/night-vision-effect-footage-078836454_iconl.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      
+      #header {
+        padding: 20px;
+        text-align: center;
+      }
+      
+      #header img {
+        width: 200px;
+        background-color: transparent;
+      }
+      
+      #search-container {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        margin: 20px auto;
+        width: 80%;
+      }
+      
+      #search-container input[type="text"] {
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        width: 70%;
+        margin-right: 10px;
+      }
+      
+      #search-container button[type="submit"] {
+        background-color: #4285F4;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      #search-container button[type="submit"]:hover {
+        background-color: #357ae8;
+      }
+      #about-creator{
+        text-align: center;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <img src="https://cdn.shopify.com/s/files/1/2602/7094/products/QTNVG_Low_Angle_Front.jpg" alt="QuaDNVG logo" width="200px" height="auto" />
+    </div>
+    <div id="search-container">
+      <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Search QuaDNVG or anything else." />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+      <div id="about-creator" style="text-align: center; padding: 20px; font-family: 'Comic Sans', sans-serif;">
+        <h2 style="font-size: 36px; font-weight: bold; margin-bottom: 20px;">About Creator</h2>
+        <p style="font-size: 18px; line-height: 1.5; margin-bottom: 20px;">Learn more about the creator of this website.</p>
+        <a href="https://gogglecreator.carrd.co" target="_blank" style="text-decoration: none;">
+          <button style="background-color: #4CAF50; color: white; padding: 12px 20px; border: none; border-radius: 4px; font-size: 18px;">About Creator</button>
+        </a>
+      </div>
+    </body>
+  </html>
